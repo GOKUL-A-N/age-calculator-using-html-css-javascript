@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-style: italic;
+}
+
+.cursive{
+    font-family: "Dancing Script", cursive;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#111] md:h-screen w-full flex flex-col items-center justify-center">
+    
+    <div class="relative flex items-center justify-center p-20 border-2 border-[#333] z-10 bg-[#222] rounded-xl flex-col gap-3">
+        <!-- <h1 class="font-bold text-[22px] text-[#fff]">Enter your age</h1> -->
+        <!-- <div class="bg-transparent absolute font-bold text-left w-auto absolute top-0 left-5 -mt-5 p-2  rotate-[270deg] bottom-0 right-0">
+            <h1 class="uppercase text-[#fff] text-[18px]">Reveal Age</h1>
+        </div> -->
+        <div class="flex gap-3">
+            <div class="flex flex-col text-[#aaa] font-semibold">
+                <label for="" class="mb-1">Date</label>
+                <input id="date" type="text" class="[-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none text-white w-[60px] outline-none bg-[#333] border-2 border-[#666] rounded-md p-3">
+            </div>
+            <div class="flex flex-col text-[#aaa] font-semibold">
+                <label for="" class="mb-1">Month</label>
+                <input id="month" type="text" class="[-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none text-white w-[60px] outline-none bg-[#333] border-2 border-[#666] rounded-md p-3">
+            </div>
+            <div class="flex flex-col text-[#aaa] font-semibold">
+                <label for="" class="mb-1">Year</label>
+                <input id="year" type="text" class="[-moz-appearance:_textfield] [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none text-white w-[90px] outline-none bg-[#333] border-2 border-[#666] rounded-md p-3">
+            </div>
+        </div>
+        <button class="bg-[#c7e52b] pl-2 pr-2 pb-1 pt-1 rounded-md mt-3" onclick="age()">Reveal</button>
+        <div class="font-black text-[35px] text-[#fff]">
+            <h1><span id="disyear" class="text-[#c7e52b] text-[58px]">--</span>year</h1>
+            <h1><span id="disMonth" class="text-[#c7e52b] text-[58px]">--</span>month</h1>
+            <h1><span id="disDate" class="text-[#c7e52b] text-[58px]">--</span>days</h1>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
